@@ -1,0 +1,262 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* .header{
+    position: fixed;
+} */
+
+.header a {
+    text-decoration: none;
+}
+
+.header ul {
+    /* align-items: center; */
+    list-style: none;
+
+}
+
+.header {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.272);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    
+}
+/* left */
+.header-left>li>a{
+    color: black;
+    font-weight: 300;
+    padding:21px ; 
+letter-spacing: 3px;
+transition: 0.5s;
+
+    
+
+
+}
+.header-left>li{
+    margin-top: 20px;
+}
+
+/* right */
+.header-right>li {
+    margin-top: 20px;
+    float: left;
+    
+}
+.header-right>li>a{
+    color: black;
+    font-weight: 300;
+    padding:21px ;
+transition: 0.5s;
+
+}
+/* hoverheader */
+.header-right>li>:hover,.header-left>li>:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* header img */
+.header-img{
+    position: relative;
+}
+.header-img>img{
+    width: 100%;
+    height: 750px;
+}
+.header-img>.img-item{
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 150px 40px;
+    align-items: center;
+    /* text-align: center; */
+}
+.img-item>h1{
+    padding: 50px 0px;
+    font-size: 64px;
+    font-weight: 300;
+    text-shadow: 2px 2px 5px rgb(255, 0, 0);
+
+}
+.img-item-a:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+}
+.img-item>a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    /* margin-top: 38px; */
+    top: 390px;
+    transition: 1s;
+
+    position: absolute;
+}
+/*  */
+/* abouttttttttttttttt */
+.about-cangiua{
+    text-align: center;
+}
+.about-cangiua>h1{
+    padding-bottom: 20px;
+}
+.about-cangiua>p{
+    font-size: 18px;
+}
+.about .col-3{
+    text-align: center;
+    padding-top: 100px;
+}
+/*  */
+.container-hung h2{
+    padding: 20px 0px;
+
+}
+.container-hung p{
+    line-height: 28px;
+}
+.col-about{
+    padding: 0px 26px;
+}
+#aboutid{
+    transition: 1s;
+}
+.theteam-chu{
+    text-align: center;
+}
+.theteam-chu p{
+    line-height: 28px;
+    font-size: 18px;
+
+}
+.theteam-chu h1{
+    padding-bottom: 20px;
+
+}
+
+.khung-tt img{
+    width: 100%;
+    /* padding: 40px; */
+}
+.khung-tt>h3{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 10px 0px;
+
+}
+.khung-tt>h5{
+    margin:10px 0px;
+    font-size: 15px 0px;
+    opacity: 0.60;
+}
+.khung-tt>p{
+    line-height: 28px;
+    font-size: 18px;
+}
+.theteam .row{
+    margin-top: 5   0px ;
+    display: flex;
+    justify-content: space-around;
+}
+.theteam .col-3{
+    margin-top: 50px;
+    overflow: hidden    ;
+    max-width: 24% !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.khung-tt h3{
+    padding: 10px;
+}
+.khung-tt h5{
+    padding: 10px;
+
+}
+.khung-tt p{
+padding: 10px;
+}
+.button-tt{
+    text-align: center;
+}
+.button-tt>a {
+    text-decoration: none;
+}
+.button-tt>a{
+    line-height: 45px;
+    height: 43px;
+    margin: 10px;
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    /* padding: ;w */
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.button-tt>a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.img-our img{
+    width: 100%;
+    height: 100%;
+}   
+.hover-img-our{
+    opacity: 1;
+}
+.hover-img-our:hover{
+    opacity: 0.7;
+
+}
+
+
+/*  */
+.three{
+    text-align: center;
+}
+.three-than1{
+    background-color: white;
+}
+.three-than1>div{
+    line-height: 60px;
+
+    border-bottom: 1px solid rgba(116, 111, 111, 0.47);
+}
+.three-than1>div{
+    height: 60px;
+}
+.basic-3{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    height: 108px !important;
+    line-height: 108px !important;
+}
+.three-than1>div>span{
+    font-weight: bold;
+}
+.ctn-btn{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.322);
+    height: 100px !important;
+
+}
+.btn-three{
+    height: 100px !important;
+
+    background-color: rgba(0, 0, 0, 0.183);
+}
+.btn-three>a{
+    line-height: 6;
+    text-decoration: none;
+    color:white;
+    padding: 15px 20px;
+    background-color: black;
+}

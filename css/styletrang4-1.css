@@ -1,0 +1,62 @@
+h3{
+    font-size: 60px;
+    color: blue;
+}
+.laptopdell{
+    padding-top: 64px;
+    display: inline;
+    position: absolute;
+    color: red;
+    font-size:  50px;
+}
+.laptopdell>del{
+    color: black;
+}
+p{
+    display: inline;
+    position: absolute;
+    font-size: 10px;
+    padding-top: 110px;
+}
+p>label{
+    font-size: 20px;
+    color: rgb(25, 58, 167);
+}
+.vong{
+    overflow: hidden;
+    border: 1px solid #f60;
+    border-radius: 4px;
+    display: block;
+    position: relative;
+    margin-top: 10px;
+}
+.vong1{
+    background: #f60;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.vong2{
+    text-align: center  ;
+}
+.size1{
+    font-size: 20px;
+    padding: 1px 0;
+}
+.check input[type="submit"]{
+    width: 105px;
+    background: #00bcd4;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s;
+
+}
+input:hover{
+    background-color: #b0d0d4;
+}

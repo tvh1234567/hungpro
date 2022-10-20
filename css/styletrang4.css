@@ -1,0 +1,86 @@
+.columm{
+    width: 200px;
+    height: 400px;
+    float: left ;
+}
+.san-pham{
+    border: 1px solid rgb(187, 125, 125);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+    /* background-color: rgb(194, 163, 136); */
+    box-shadow: 5px 5px rgb(94, 94, 97);
+    transition: 0.3s;
+}
+
+.san-pham:hover{
+    box-shadow: 5px 5px rgb(235, 229, 229);
+    background-color: rgb(224, 241, 241);
+}
+div>div>img{
+    width: 170px;
+    height: 154px;  
+}
+/* maytinh */
+.maytinh1{
+    width: 170px;
+    height: 154px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
+
+.maytinh2{
+    width: 170px;
+    height: 161px;
+}
+.maytinh3{
+    width: 170px;
+    height: 177px;
+}
+.maytinh4{
+        width: 170px;
+        height: 152px;
+}
+.maytinh5{
+    width: 170px;
+    height: 152px;
+}
+.san-pham .name{
+    color: blue;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 3px;
+    font-variant: small-caps;
+}
+.san-pham .gia{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+.san-pham .gia del{
+    color: gray;
+}
+h3{
+    text-align: center;
+    color: thistle;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+p{
+    font-size: 50px;
+    color: rgb(25, 13, 2);
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px 0px;
+}
+html{
+    background-color: rgb(250, 244, 244);
+}
+header{
+    background-color: aliceblue;
+}
